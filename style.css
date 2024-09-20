@@ -1,0 +1,151 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.encabezado{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+ul{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    margin-right: 32px;
+}
+
+li{
+    list-style: none;
+    font-size: 24px;
+    color: white;
+}
+
+.logo{
+    margin-left: 32px;
+    padding: 8px;
+}
+
+.introduccion{
+    box-sizing: border-box;
+    background-color: #1F2937;
+    display: flex;
+    padding: 32px;
+    justify-content: center;
+    gap: 16px;
+}
+
+h1{
+    color:white;
+    max-width: 200px;
+    font-size: 36px;
+    font-weight: 900;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    color:white;
+    max-width: 300px;
+    font-stretch: none;
+}
+
+.registrarse{
+    width: 120px;
+    height: 30px;
+    border-radius: 6px;
+    background-color: blue;
+    color: white;
+    border:1 solid blue;
+}
+
+h2{
+    text-align: center;
+    margin: 36px;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    gap: 62px;
+    padding: 32px;
+}
+
+.textoInfo{
+    color: black;
+    max-width: 150px;
+}
+
+.info img{
+    border: 1px solid rgb(87, 87, 249);
+    border-radius: 12px;
+}
+
+.dicho{
+    background-color: rgb(233, 230, 230);
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.frase{
+    color: black;
+    font-style: italic;
+    font-size: 32px;
+    text-align: center;
+    max-width: 650px;
+}
+
+.autor{
+    color: black;
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 200px;
+    
+}
+
+.anuncio{
+    height: 104px;
+    box-sizing: border-box;
+    background-color: rgb(103, 103, 255);
+    margin: 64px;
+    margin-left: 124px;
+    margin-right: 124px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 12px;
+}
+
+.anuncioTexto{
+    min-width: 300px;
+}
+
+.anuncioBoton{
+    align-self: center;
+    min-width: 100px;
+    height: 32px;
+    border-radius: 6px;
+    border: 2px solid white;
+    color: white;
+    background-color: rgb(103, 103, 255);
+
+}
+
+.pie{
+    background-color: #1F2937;
+    color: white;
+    font-family: sans-serif;
+    padding: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
